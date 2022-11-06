@@ -1,6 +1,9 @@
 # ROS_WiFi_Scanner
-This Repo is motivated by [wifi_scan](https://github.com/RafBerkvens/wifi_scan) and modified from [pifi-slam](https://github.com/WLaney/pifi-slam). It collects wifi fingerprint and publishes it on ROS which you can record or subscribe of for other purpose.
+This Repo collects wifi fingerprint and publishes it on ROS which you can record or subscribe of for other purposes.
 
+It is motivated by [wifi_scan](https://github.com/RafBerkvens/wifi_scan) and modified from [pifi-slam](https://github.com/WLaney/pifi-slam). 
+
+In [wifi_scan](https://github.com/RafBerkvens/wifi_scan), "Failed to read scan data : Argument list too long" occurs when the number of AP is too large because it's based on iwlist, whereas iw works fine.
 
 ## Install iw tool
 ```sh
